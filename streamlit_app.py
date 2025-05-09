@@ -22,7 +22,7 @@ prompt_entry = prompt_data[selected_category][selected_subcategory]
 st.header(f"📂 {selected_category} → 🧠 {selected_subcategory}")
 st.markdown(f"**Summary:** {prompt_entry['summary']}")
 st.code(prompt_entry['prompt'], language='markdown')
-st.button("📋 Copy Prompt", key=selected_subcategory)
+# st.button("📋 Copy Prompt", key=selected_subcategory)
 
 st.markdown("---")
 st.info("Use your mouse to select and copy prompts. 'Copy' button is visual-only (no clipboard JS).")
