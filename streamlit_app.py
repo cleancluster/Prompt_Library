@@ -26,22 +26,25 @@ st.markdown(f"<p style='font-size: 1.1rem; margin-top: 0.5em;'><strong>Summary:<
 # Prompt content
 st.code(prompt_entry["prompt"], language="markdown")
 
-escaped_prompt = html.escape(prompt_entry["prompt"]).replace("\n", "\\n").replace("'", "\\'")
+# Escape backticks and double quotes for JS safety
+js_safe_prompt = prompt_entry["prompt"].replace("`", "\\`").replace('"', '\\"').replace("\n", "\\n")
 
 components.html(f"""
-    <button onclick="navigator.clipboard.writeText(`{escaped_prompt}`)"
-        style="
-            margin-top: 10px;
-            padding: 0.5em 1em;
-            background-color: #f4f4f4;
-            border: 1px solid #ccc;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 16px;
-        ">
-        📋 Copy Prompt
-    </button>
-""", height=45)
+    <div style="margin-top: 10px;">
+        <button id="copy-btn"
+            style="padding: 0.5em 1em; background-color: #f4f4f4; border: 1px solid #ccc; border-radius: 6px; cursor: pointer;">
+            📋 Copy Prompt
+        </button>
+        <script>
+            const btn = document.getElementById("copy-btn");
+            btn.addEventListener("click", function() {{
+                navigator.clipboard.writeText("{js_safe_prompt}");
+                btn.innerText = "✅ Copied!";
+                setTimeout(() => btn.innerText = "📋 Copy Prompt", 2000);
+            }});
+        </script>
+    </div>
+""", height=60)
 
 # Footer note
 st.markdown("---")
