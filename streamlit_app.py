@@ -29,6 +29,19 @@ st.code(prompt_entry["prompt"], language="markdown")
 # Escape backticks and double quotes for JS safety
 js_safe_prompt = prompt_entry["prompt"].replace("`", "\\`").replace('"', '\\"').replace("\n", "\\n")
 
+# Optional example thread link (if present in JSON)
+if "example_link" in prompt_entry:
+    st.markdown(
+        f"[🔗 View ChatGPT Example Thread]({prompt_entry['example_link']})",
+        unsafe_allow_html=True
+    )
+else:
+    st.markdown(
+        "<span style='color: #888;'>No example thread available yet.</span>",
+        unsafe_allow_html=True
+    )
+
+# Copy button as before
 components.html(f"""
     <div style="margin-top: 10px;">
         <button id="copy-btn"
@@ -45,4 +58,5 @@ components.html(f"""
         </script>
     </div>
 """, height=60)
+
 
