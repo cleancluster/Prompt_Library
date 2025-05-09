@@ -1,5 +1,9 @@
 {
   "Email & Communication": {
+    "Cold Outreach to a New Client": {
+      "summary": "You want to introduce your company and offering to a potential client who has never heard from you before. This email should be concise, informative, and end with a clear call to action such as booking a demo.",
+      "prompt": "You are a B2B communication assistant. Your goal is to create a compelling cold outreach email for a potential client.\n\nYour task is to write an email introducing [COMPANY NAME] and its offering, [PRODUCT/SERVICE NAME], to a new contact in the [INDUSTRY] sector. The product/service helps clients by [WHAT THE PRODUCT/SERVICE DOES IN ONE SENTENCE].\n\nPlease format the email in short, digestible paragraphs (max 150 words). End with a friendly, low-friction call to action like 'Would you be open to a quick intro call?' or 'Happy to send more info if you're interested.'\n\nDo not make up details about the product/service. Only include factual statements based on the inputs.\n\nAdditional context: Refer to the website [LINK TO COMPANY OR PRODUCT PAGE] or uploaded brochure/document for accurate messaging.\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
     "Follow-Up Email After Client Meeting": {
       "summary": "You want to follow up after a meeting with a client to thank them and confirm shared understanding of discussion points and next steps.",
       "prompt": "You are a business development assistant. Your goal is to write a professional and appreciative follow-up email after a meeting.\n\nSummarize the key discussion points and next steps from the meeting with [CLIENT NAME] regarding [TOPIC]. Use the provided notes to craft a personalized, concise message.\n\nReturn format: Use short, structured paragraphs or bullet points if appropriate. Maintain a friendly, professional tone.\n\nDo not invent or extrapolate information not provided in the meeting summary.\n\nRelevant context: Refer to any shared documents or files if a link is available [LINK TO SHARED MATERIAL OR INTERNAL DOCS].\n\nMeeting summary: [INSERT 3\u20135 BULLET POINTS FROM THE MEETING HERE]\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
@@ -18,6 +22,10 @@
     }
   },
   "Image & Visual Content Creation": {
+    "Photorealistic Print Advertisement": {
+      "summary": "You want to generate a high-quality, photorealistic print advertisement for a product, following the visual and strategic standards of top creative agencies. The prompt should describe the concept, lighting, tone, and layout in detail to guide AI or creative generation tools.",
+      "prompt": "You are a creative director. Your task is to create a high-end, photorealistic print advertisement in portrait orientation (300 DPI, full-page quality).\n\nThe ad should promote [PRODUCT OR SERVICE NAME], and it must resemble a real, professionally produced campaign. Include cinematic photography, advanced lighting, and authentic textures.\n\nThe visual should feature: [DESCRIBE VISUAL CONCEPT OR OBJECT SETTING].\n\nStylistic tone: Match the [BRAND NAME] DNA (e.g., luxury, playful, rugged). Use [LIGHTING STYLE], and a [COLOR PALETTE]. The image must evoke the emotion of [EMOTION: wonder, nostalgia, etc.].\n\nComposition: Use rule of thirds, strong focal points, clean hierarchy. Logo placement: [LOGO PLACEMENT]. Typography: [HEADLINE + TYPEFACE DETAILS].\n\nImportant: The image should not appear AI-generated and must follow real-world visual logic.\n\nContext: Reference visuals or previous brand campaigns if available: [LINK TO BRAND INSPIRATION OR GUIDELINE].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
     "Hero Image for Website or Landing Page": {
       "summary": "You want to generate a striking visual hero image for a product, service, or concept to be used on a landing page. It should represent the key value proposition or feeling.",
       "prompt": "You are a digital brand designer. Your goal is to generate a hero image concept for the landing page of [PRODUCT/SERVICE NAME].\n\nThe image should depict [KEY CONCEPT OR SYMBOLIC REPRESENTATION], using a [STYLE: minimal, illustrative, cinematic] aesthetic. Include visual elements that reflect [BRAND VALUES OR THEMES].\n\nEnsure the layout supports header text visibility (e.g., light background, center focus) and feels modern and visually inviting.\n\nDo not include any branding unless specified. Focus on emotional resonance and clarity.\n\nContext: Link to landing page copy or references: [LINK TO PAGE OR BRIEFING].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
@@ -36,6 +44,10 @@
     }
   },
   "Social & Marketing Content": {
+    "LinkedIn Post for Product Launch": {
+      "summary": "You want to create a LinkedIn post announcing a new product or feature. The post should be engaging, concise, and aligned with your brand tone. It should include the value proposition and a clear call to action.",
+      "prompt": "You are a content marketing assistant. Your goal is to write a LinkedIn post announcing a new product or feature.\n\nCreate a post to introduce [PRODUCT OR FEATURE NAME], designed for [TARGET AUDIENCE] and aimed at [MAIN VALUE OR PAIN POINT IT SOLVES]. Mention the core benefit in one sentence and close with a call to action like 'Learn more', 'See how it works', or 'Try it today'.\n\nReturn format: Write in a tone that is [TONE: professional, enthusiastic, visionary], using clear and engaging language. Keep the post under 300 words.\n\nImportant: Do not fabricate claims or statistics. Stay grounded in the provided facts.\n\nContext: Refer to [LINK TO PRODUCT PAGE OR COMPANY SITE] for accuracy and inspiration.\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
     "Writing a Tagline or Slogan": {
       "summary": "You want to create a memorable and relevant tagline for your brand or campaign. It should reflect the core value of your product/service in a catchy format.",
       "prompt": "You are a branding assistant. Your task is to write 3 strong tagline options for [PRODUCT/SERVICE NAME].\n\nThe product/service is for [TARGET AUDIENCE] and solves [CORE PROBLEM OR NEED] by [KEY BENEFIT OR FEATURE]. Each tagline should be under 10 words, clear, and reflect a [TONE: bold, innovative, friendly, etc.] tone.\n\nReturn format: Present three distinct tagline options as a bullet list.\n\nDo not invent features. Stay true to the brand\u2019s purpose.\n\nContext: Refer to the website or brand guide if available: [LINK TO BRAND OR PRODUCT PAGE].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
@@ -54,6 +66,10 @@
     }
   },
   "Data Interpretation & Research": {
+    "Summarize Key Trends from a Spreadsheet": {
+      "summary": "You want to understand trends or patterns from a spreadsheet (e.g., sales, customer behavior, performance metrics). The AI should summarize trends, anomalies, and suggest actions based on provided data.",
+      "prompt": "You are a business analyst. Your task is to summarize trends and identify patterns in a dataset.\n\nBased on the spreadsheet [DATASET NAME OR LINK TO FILE], highlight:\n- 3\u20135 notable trends or shifts\n- Any outliers or unexpected values\n- Suggestions for what actions or investigations these insights might support\n\nReturn format: Bullet list of trends, brief explanation of each, and a final 2\u20133 line recommendation.\n\nImportant: Do not infer beyond data. Do not fabricate metrics or causation.\n\nContext: If applicable, the data reflects [DATA CONTEXT: e.g., sales by region, user engagement, etc.].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
     "Competitor Activity or Market Comparison Summary": {
       "summary": "You want to compare your product, service, or performance with that of competitors. The AI should review a provided table, doc, or links and extract differentiators or patterns.",
       "prompt": "You are a market analyst. Your goal is to summarize competitor activity or a market comparison table.\n\nReview the competitor overview found in [LINK TO COMPARISON TABLE OR DOCUMENT] and summarize:\n- 3\u20134 areas where your offering differs significantly (better or worse)\n- Any pricing, feature, or positioning gaps worth exploring\n- A short conclusion about your relative market position\n\nReturn format: Paragraph summary + bullet points.\n\nDo not speculate on internal strategy or finances.\n\nContext: This comparison includes [INDUSTRY SEGMENT OR COMPETITOR NAMES].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
@@ -72,6 +88,10 @@
     }
   },
   "Strategy & Ideation": {
+    "Generate Positioning Statements for a New Product": {
+      "summary": "You want to explore different ways to position your new product for a specific market. This includes variations in tone, value proposition, and focus.",
+      "prompt": "You are a positioning strategist. Your goal is to create three distinct product positioning statements for [PRODUCT NAME].\n\nThe product is designed for [TARGET AUDIENCE] and solves [CORE PROBLEM] by [MAIN BENEFIT OR FEATURE].\n\nReturn format: Three short positioning statements, each in 1\u20132 sentences, emphasizing a different strategic angle (e.g., emotional appeal, performance, cost savings).\n\nImportant: Stay grounded in the product facts. Avoid hype or unverifiable claims.\n\nContext: Refer to [LINK TO PRODUCT BRIEF OR OVERVIEW] for detailed input if needed.\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
     "Go-to-Market Plan Outline": {
       "summary": "You want a structured outline of a go-to-market plan for launching a new product or service. This should include the target audience, key channels, and messaging focus.",
       "prompt": "You are a go-to-market strategist. Draft an outline for a GTM plan for [PRODUCT/SERVICE NAME].\n\nInclude:\n- Target audience and segments\n- Core messaging themes\n- Launch timeline phases\n- Key marketing/sales channels\n\nReturn format: Structured bullet points with short explanations.\n\nImportant: Do not include generic strategies. Focus on details relevant to the inputs.\n\nContext: If available, review [LINK TO PRODUCT OVERVIEW OR GTM BRIEF].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
