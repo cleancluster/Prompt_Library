@@ -1,5 +1,6 @@
 import streamlit as st
 import json
+import html
 
 # Load prompt data
 with open("prompt_library.json", "r") as f:
@@ -22,11 +23,10 @@ st.markdown(f"<h3 style='margin-bottom: 0.2em;'>📂 {selected_category} → �
 st.markdown(f"<p style='font-size: 1.1rem; margin-top: 0.5em;'><strong>Summary:</strong> {prompt_entry['summary']}</p>", unsafe_allow_html=True)
 
 # Prompt content
-st.code(prompt_entry["prompt"], language="markdown")
+escaped_prompt = html.escape(prompt_entry["prompt"]).replace("\n", "\\n").replace("'", "\\'")
 
-# Clipboard copy button using JS
 st.markdown(f"""
-    <button onclick="navigator.clipboard.writeText(`{prompt_entry['prompt'].replace('`', '\\`')}`)" 
+    <button onclick="navigator.clipboard.writeText('{escaped_prompt}')" 
         style="margin-top: 10px; padding: 0.5em 1em; background-color: #f4f4f4; border: 1px solid #ccc; border-radius: 6px; cursor: pointer;">
         📋 Copy Prompt
     </button>
