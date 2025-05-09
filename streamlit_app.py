@@ -1,6 +1,7 @@
 import streamlit as st
 import json
 import html
+import streamlit.components.v1 as components
 
 # Load prompt data
 with open("prompt_library.json", "r") as f:
@@ -27,12 +28,20 @@ st.code(prompt_entry["prompt"], language="markdown")
 
 escaped_prompt = html.escape(prompt_entry["prompt"]).replace("\n", "\\n").replace("'", "\\'")
 
-st.markdown(f"""
-    <button onclick="navigator.clipboard.writeText('{escaped_prompt}')" 
-        style="margin-top: 10px; padding: 0.5em 1em; background-color: #f4f4f4; border: 1px solid #ccc; border-radius: 6px; cursor: pointer;">
+components.html(f"""
+    <button onclick="navigator.clipboard.writeText(`{escaped_prompt}`)"
+        style="
+            margin-top: 10px;
+            padding: 0.5em 1em;
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        ">
         📋 Copy Prompt
     </button>
-""", unsafe_allow_html=True)
+""", height=45)
 
 # Footer note
 st.markdown("---")
