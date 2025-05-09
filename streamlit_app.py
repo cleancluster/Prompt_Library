@@ -23,6 +23,8 @@ st.markdown(f"<h3 style='margin-bottom: 0.2em;'>📂 {selected_category} → �
 st.markdown(f"<p style='font-size: 1.1rem; margin-top: 0.5em;'><strong>Summary:</strong> {prompt_entry['summary']}</p>", unsafe_allow_html=True)
 
 # Prompt content
+st.code(prompt_entry["prompt"], language="markdown")
+
 escaped_prompt = html.escape(prompt_entry["prompt"]).replace("\n", "\\n").replace("'", "\\'")
 
 st.markdown(f"""
