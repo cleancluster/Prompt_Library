@@ -2,7 +2,7 @@ import streamlit as st
 import json
 
 # Load prompt data
-with open("full_prompt_library.json", "r") as f:
+with open("prompt_library.json", "r") as f:
     prompt_data = json.load(f)
 
 st.set_page_config(layout="wide")
