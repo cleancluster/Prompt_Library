@@ -46,6 +46,3 @@ components.html(f"""
     </div>
 """, height=60)
 
-# Footer note
-st.markdown("---")
-st.info("Click the button above or highlight the text manually to copy the prompt.")
