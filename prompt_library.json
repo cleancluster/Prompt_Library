@@ -1,31 +1,112 @@
 {
   "Email & Communication": {
-    "Internal Communication": [
-      {
-        "problem": "Write a team update email after a project milestone",
-        "prompt": "Write an internal email summarizing the recent milestone for [Project Name], including key accomplishments, next steps, and appreciation for the team."
-      },
-      {
-        "problem": "Announce a new hire to the team",
-        "prompt": "Compose a friendly email to introduce [New Hire Name], their role as [Job Title], and a short background."
-      }
-    ],
-    "Cold Outreach": [
-      {
-        "problem": "Reach out to a potential partner company",
-        "prompt": "Generate a cold outreach email introducing [Your Company], highlighting shared goals with [Partner Company], and suggesting a meeting."
-      }
-    ]
+    "Prompt Library \u2013 Category: Email & Communication": {
+      "summary": "You want to introduce your company and offering to a potential client who has never heard from you before. This email should be concise, informative, and end with a clear call to action such as booking a demo.",
+      "prompt": "You are a B2B communication assistant. Your goal is to create a compelling cold outreach email for a potential client.\n\nYour task is to write an email introducing [COMPANY NAME] and its offering, [PRODUCT/SERVICE NAME], to a new contact in the [INDUSTRY] sector. The product/service helps clients by [WHAT THE PRODUCT/SERVICE DOES IN ONE SENTENCE].\n\nPlease format the email in short, digestible paragraphs (max 150 words). End with a friendly, low-friction call to action like 'Would you be open to a quick intro call?' or 'Happy to send more info if you're interested.'\n\nDo not make up details about the product/service. Only include factual statements based on the inputs.\n\nAdditional context: Refer to the website [LINK TO COMPANY OR PRODUCT PAGE] or uploaded brochure/document for accurate messaging.\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Follow-Up Email After Client Meeting": {
+      "summary": "You want to follow up after a meeting with a client to thank them and confirm shared understanding of discussion points and next steps.",
+      "prompt": "You are a business development assistant. Your goal is to write a professional and appreciative follow-up email after a meeting.\n\nSummarize the key discussion points and next steps from the meeting with [CLIENT NAME] regarding [TOPIC]. Use the provided notes to craft a personalized, concise message.\n\nReturn format: Use short, structured paragraphs or bullet points if appropriate. Maintain a friendly, professional tone.\n\nDo not invent or extrapolate information not provided in the meeting summary.\n\nRelevant context: Refer to any shared documents or files if a link is available [LINK TO SHARED MATERIAL OR INTERNAL DOCS].\n\nMeeting summary: [INSERT 3\u20135 BULLET POINTS FROM THE MEETING HERE]\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Customer Complaint Response": {
+      "summary": "A customer has reported a problem, and you need to acknowledge their concern, explain the resolution steps, and maintain trust.",
+      "prompt": "You are a customer service assistant. Your goal is to write a professional and empathetic email in response to a customer complaint.\n\nRespond to a complaint about [ISSUE DESCRIPTION] related to [PRODUCT OR SERVICE NAME]. Acknowledge the issue, apologize sincerely, and explain what steps are being taken to resolve it, including any relevant timelines.\n\nFormat: Clear, empathetic tone. Use short paragraphs. Offer follow-up support or link to help documentation if available.\n\nImportant: Do not invent technical causes or promises. Only use verified and approved information.\n\nContext: If available, refer to this support page or internal document: [LINK TO SUPPORT RESOURCE OR ISSUE TRACKER].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Internal Project Update Email": {
+      "summary": "You want to send an internal update to your team on project status, including what's done, what's next, and what needs attention.",
+      "prompt": "You are an internal communications assistant. Your task is to write a concise internal update email for the team.\n\nSummarize the current status of [PROJECT NAME] including completed milestones, upcoming tasks, and any blockers or decisions needed.\n\nReturn format: Clear summary followed by bullet points. Include calls to action for any items needing input.\n\nDo not fabricate progress. Only reflect information based on the input.\n\nContext: If available, link to the relevant project board, tracker, or document: [LINK TO PROJECT FILE OR DASHBOARD].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Announcing a New Product Feature": {
+      "summary": "You want to notify your users or customers about a new feature in your product. The email should be informative, benefits-focused, and easy to act on.",
+      "prompt": "You are a product marketing assistant. Your goal is to write a feature announcement email to existing customers.\n\nAnnounce the release of a new product feature called [FEATURE NAME], which helps users by [WHAT THE FEATURE DOES]. Explain how this will improve the user experience or solve a problem. Include a short call to action such as 'Try it now' or 'See how it works'.\n\nFormat: Friendly and informative tone. Short paragraphs. Use customer-centric language.\n\nImportant: Do not invent use cases or benefits not provided. Stick to factual descriptions.\n\nContext: If available, refer to a resource page or documentation: [LINK TO FEATURE PAGE OR DOC].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    }
   },
-  "Marketing & Ads": {
-    "Social Media Posts": [
-      {
-        "problem": "Create a product launch tweet",
-        "prompt": "Write a short, engaging tweet announcing the launch of [Product Name], with a call to action."
-      }
-    ]
+  "Image & Visual Content Creation": {
+    "Prompt Library \u2013 Category: Image & Visual Content Creation": {
+      "summary": "You want to generate a high-quality, photorealistic print advertisement for a product, following the visual and strategic standards of top creative agencies. The prompt should describe the concept, lighting, tone, and layout in detail to guide AI or creative generation tools.",
+      "prompt": "You are a creative director. Your task is to create a high-end, photorealistic print advertisement in portrait orientation (300 DPI, full-page quality).\n\nThe ad should promote [PRODUCT OR SERVICE NAME], and it must resemble a real, professionally produced campaign. Include cinematic photography, advanced lighting, and authentic textures.\n\nThe visual should feature: [DESCRIBE VISUAL CONCEPT OR OBJECT SETTING].\n\nStylistic tone: Match the [BRAND NAME] DNA (e.g., luxury, playful, rugged). Use [LIGHTING STYLE], and a [COLOR PALETTE]. The image must evoke the emotion of [EMOTION: wonder, nostalgia, etc.].\n\nComposition: Use rule of thirds, strong focal points, clean hierarchy. Logo placement: [LOGO PLACEMENT]. Typography: [HEADLINE + TYPEFACE DETAILS].\n\nImportant: The image should not appear AI-generated and must follow real-world visual logic.\n\nContext: Reference visuals or previous brand campaigns if available: [LINK TO BRAND INSPIRATION OR GUIDELINE].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Hero Image for Website or Landing Page": {
+      "summary": "You want to generate a striking visual hero image for a product, service, or concept to be used on a landing page. It should represent the key value proposition or feeling.",
+      "prompt": "You are a digital brand designer. Your goal is to generate a hero image concept for the landing page of [PRODUCT/SERVICE NAME].\n\nThe image should depict [KEY CONCEPT OR SYMBOLIC REPRESENTATION], using a [STYLE: minimal, illustrative, cinematic] aesthetic. Include visual elements that reflect [BRAND VALUES OR THEMES].\n\nEnsure the layout supports header text visibility (e.g., light background, center focus) and feels modern and visually inviting.\n\nDo not include any branding unless specified. Focus on emotional resonance and clarity.\n\nContext: Link to landing page copy or references: [LINK TO PAGE OR BRIEFING].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Conceptual Visual Metaphor for a Presentation": {
+      "summary": "You need an abstract or metaphorical visual that conveys a concept like 'growth', 'resilience', or 'transformation' for use in a slide deck or pitch.",
+      "prompt": "You are a visual storyteller. Your goal is to describe a symbolic, metaphorical image representing the concept of [ABSTRACT CONCEPT, E.G. TRUST, GROWTH, COMPLEXITY].\n\nUse a [STYLE: surreal, minimalistic, illustrative] tone. Choose objects, environments, or scenarios that subtly reinforce the concept.\n\nThe image must be simple, emotionally resonant, and understandable at a glance.\n\nDo not include literal icons unless requested. Avoid clich\u00e9s.\n\nContext: Link to the presentation or slide content where this visual will appear: [LINK TO SLIDE DECK OR BRIEF].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Simple Icon or Figicon Description": {
+      "summary": "You want to generate a prompt to create a minimalist icon or figicon that visually represents a function, action, or object in an app or website.",
+      "prompt": "You are a UI icon designer. Your task is to describe a simple, flat-style icon representing [CONCEPT OR FUNCTION].\n\nThe icon should reflect [EMOTION OR FUNCTIONAL CHARACTERISTIC] and be suitable for use in an app or dashboard. Describe key shapes, style (outline/solid), and whether it should have motion or state change if interactive.\n\nAvoid complexity. Focus on recognizability and style coherence.\n\nContext: Link to app mockup or style guide: [LINK TO UI FILE OR DESIGN SYSTEM].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Storyboard for a Short Explainer Video": {
+      "summary": "You want to generate a visual storyboard description for a short explainer video introducing your product or concept. Each scene should convey a key message.",
+      "prompt": "You are a video producer. Your goal is to generate a storyboard outline for a 30\u201360 second explainer video about [PRODUCT/SERVICE NAME].\n\nTarget audience: [AUDIENCE TYPE]. Key message: [VALUE PROPOSITION OR PROBLEM IT SOLVES].\n\nBreak the storyboard into 4\u20136 scenes. For each, describe the visual, motion, and message.\n\nStyle: [ANIMATION STYLE OR VIDEO AESTHETIC]. Tone: [TONE: upbeat, serious, friendly].\n\nImportant: Each scene should flow logically into the next. Avoid unnecessary detail; focus on clarity.\n\nContext: Refer to existing script or references: [LINK TO SCRIPT OR VIDEO BRIEF].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    }
   },
-  "Productivity & Ops": {},
-  "Customer Support": {},
-  "Strategy & Planning": {}
+  "Social & Marketing Content": {
+    "Prompt Library \u2013 Category: Social & Marketing Content": {
+      "summary": "You want to create a LinkedIn post announcing a new product or feature. The post should be engaging, concise, and aligned with your brand tone. It should include the value proposition and a clear call to action.",
+      "prompt": "You are a content marketing assistant. Your goal is to write a LinkedIn post announcing a new product or feature.\n\nCreate a post to introduce [PRODUCT OR FEATURE NAME], designed for [TARGET AUDIENCE] and aimed at [MAIN VALUE OR PAIN POINT IT SOLVES]. Mention the core benefit in one sentence and close with a call to action like 'Learn more', 'See how it works', or 'Try it today'.\n\nReturn format: Write in a tone that is [TONE: professional, enthusiastic, visionary], using clear and engaging language. Keep the post under 300 words.\n\nImportant: Do not fabricate claims or statistics. Stay grounded in the provided facts.\n\nContext: Refer to [LINK TO PRODUCT PAGE OR COMPANY SITE] for accuracy and inspiration.\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Writing a Tagline or Slogan": {
+      "summary": "You want to create a memorable and relevant tagline for your brand or campaign. It should reflect the core value of your product/service in a catchy format.",
+      "prompt": "You are a branding assistant. Your task is to write 3 strong tagline options for [PRODUCT/SERVICE NAME].\n\nThe product/service is for [TARGET AUDIENCE] and solves [CORE PROBLEM OR NEED] by [KEY BENEFIT OR FEATURE]. Each tagline should be under 10 words, clear, and reflect a [TONE: bold, innovative, friendly, etc.] tone.\n\nReturn format: Present three distinct tagline options as a bullet list.\n\nDo not invent features. Stay true to the brand\u2019s purpose.\n\nContext: Refer to the website or brand guide if available: [LINK TO BRAND OR PRODUCT PAGE].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Social Media Post from a Blog Article": {
+      "summary": "You want to convert a blog article into a social media post that summarizes its core message and drives engagement.",
+      "prompt": "You are a social content writer. Your goal is to write a social media post that summarizes a blog article and encourages people to read more.\n\nUse the key insights from [BLOG ARTICLE TITLE] found at [LINK TO ARTICLE] to create a short, attention-grabbing post for [PLATFORM: LinkedIn, Twitter, Facebook]. The post should summarize the core point in 1\u20132 sentences and include a question, quote, or call to action to drive clicks.\n\nReturn format: Clear tone suited for the platform. Limit to [WORD COUNT LIMIT] words.\n\nImportant: Do not paraphrase beyond the article\u2019s message. Avoid clickbait or speculation.\n\nContext: Review the article at the provided link.\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Marketing Email for a New Campaign": {
+      "summary": "You need a short email announcing a new campaign, offer, or product. The message should be persuasive and user-focused, with a clear benefit and action.",
+      "prompt": "You are a campaign copywriter. Write a short marketing email announcing [CAMPAIGN OR PRODUCT NAME] targeted to [AUDIENCE TYPE]. The main benefit of this offer/product is [KEY BENEFIT]. Include a clear call to action like 'Shop now', 'See it live', or 'Join the campaign'.\n\nReturn format: Friendly, persuasive tone. Keep it under 150 words. Start with a hook and finish with the CTA.\n\nImportant: Do not exaggerate or use misleading language. Base the message on the benefit provided.\n\nContext: Refer to campaign or landing page if applicable: [LINK TO CAMPAIGN OR PRODUCT PAGE].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Crafting a One-Sentence Product Pitch": {
+      "summary": "You want to generate a concise one-liner that explains your product and what makes it valuable. This can be used in intros, bios, or pitch decks.",
+      "prompt": "You are a startup communications expert. Write a one-sentence product pitch for [PRODUCT NAME], designed for [TARGET AUDIENCE], which helps them [MAIN PROBLEM IT SOLVES OR VALUE IT DELIVERS].\n\nReturn format: One complete sentence, clear and jargon-free, between 15\u201325 words.\n\nImportant: Avoid vague claims. Focus on clarity and relevance.\n\nContext: Use details from the company page or document if available: [LINK TO PRODUCT OR OVERVIEW PAGE].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    }
+  },
+  "Data Interpretation & Research": {
+    "Prompt Library \u2013 Category: Data Interpretation & Research": {
+      "summary": "You want to understand trends or patterns from a spreadsheet (e.g., sales, customer behavior, performance metrics). The AI should summarize trends, anomalies, and suggest actions based on provided data.",
+      "prompt": "You are a business analyst. Your task is to summarize trends and identify patterns in a dataset.\n\nBased on the spreadsheet [DATASET NAME OR LINK TO FILE], highlight:\n- 3\u20135 notable trends or shifts\n- Any outliers or unexpected values\n- Suggestions for what actions or investigations these insights might support\n\nReturn format: Bullet list of trends, brief explanation of each, and a final 2\u20133 line recommendation.\n\nImportant: Do not infer beyond data. Do not fabricate metrics or causation.\n\nContext: If applicable, the data reflects [DATA CONTEXT: e.g., sales by region, user engagement, etc.].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Competitor Activity or Market Comparison Summary": {
+      "summary": "You want to compare your product, service, or performance with that of competitors. The AI should review a provided table, doc, or links and extract differentiators or patterns.",
+      "prompt": "You are a market analyst. Your goal is to summarize competitor activity or a market comparison table.\n\nReview the competitor overview found in [LINK TO COMPARISON TABLE OR DOCUMENT] and summarize:\n- 3\u20134 areas where your offering differs significantly (better or worse)\n- Any pricing, feature, or positioning gaps worth exploring\n- A short conclusion about your relative market position\n\nReturn format: Paragraph summary + bullet points.\n\nDo not speculate on internal strategy or finances.\n\nContext: This comparison includes [INDUSTRY SEGMENT OR COMPETITOR NAMES].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Summarize Key Themes from Survey or Feedback Data": {
+      "summary": "You want to find the most common themes or concerns in open-ended survey answers or customer feedback.",
+      "prompt": "You are a customer insights assistant. Summarize the key themes, requests, and complaints from this list of customer responses.\n\nUse the feedback dataset from [LINK TO CUSTOMER FEEDBACK FILE OR TEXT].\n\nHighlight:\n- Top 3 most mentioned topics\n- Sample quotes for each\n- A final line suggesting what this could mean for product or service improvement\n\nFormat: Structured output with bolded theme titles.\n\nImportant: Do not generalize beyond what\u2019s in the data. Avoid assumptions.\n\nContext: This feedback is from [SOURCE OR CAMPAIGN: e.g. Q1 survey, support chats, etc.].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Generate a Chart Summary from Tabular Data": {
+      "summary": "You have structured tabular data (e.g., Excel or CSV) and want a description of what chart to use, what it would show, and what it means.",
+      "prompt": "You are a data visualization specialist. Review the data in [LINK TO TABLE OR UPLOADED SPREADSHEET].\n\nYour task is to:\n- Recommend the best chart type (bar, line, scatter, etc.)\n- Describe what the x- and y-axes should represent\n- Summarize what the chart would show and the main takeaway\n\nFormat: Plain text summary of recommended visualization and insight.\n\nImportant: Do not invent data or trends not clearly visible.\n\nContext: The dataset represents [DATA TYPE OR CONTEXT].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Quick Summary of a Market Report or Research Document": {
+      "summary": "You want to condense a long report, industry article, or whitepaper into the key facts and implications.",
+      "prompt": "You are a research summarizer. Your task is to extract key insights from [LINK TO DOCUMENT OR UPLOADED REPORT].\n\nSummarize:\n- The main topic and its importance\n- 3\u20135 key findings or statistics\n- 1 paragraph on the implications for your company\n\nReturn format: Short structured summary (headings or bullet points optional).\n\nImportant: Stick to content found in the source. No extrapolation.\n\nContext: This report was created by [SOURCE OR PUBLISHER] and focuses on [INDUSTRY OR THEME].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    }
+  },
+  "Strategy & Ideation": {
+    "Prompt Library \u2013 Category: Strategy & Ideation": {
+      "summary": "You want to explore different ways to position your new product for a specific market. This includes variations in tone, value proposition, and focus.",
+      "prompt": "You are a positioning strategist. Your goal is to create three distinct product positioning statements for [PRODUCT NAME].\n\nThe product is designed for [TARGET AUDIENCE] and solves [CORE PROBLEM] by [MAIN BENEFIT OR FEATURE].\n\nReturn format: Three short positioning statements, each in 1\u20132 sentences, emphasizing a different strategic angle (e.g., emotional appeal, performance, cost savings).\n\nImportant: Stay grounded in the product facts. Avoid hype or unverifiable claims.\n\nContext: Refer to [LINK TO PRODUCT BRIEF OR OVERVIEW] for detailed input if needed.\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Go-to-Market Plan Outline": {
+      "summary": "You want a structured outline of a go-to-market plan for launching a new product or service. This should include the target audience, key channels, and messaging focus.",
+      "prompt": "You are a go-to-market strategist. Draft an outline for a GTM plan for [PRODUCT/SERVICE NAME].\n\nInclude:\n- Target audience and segments\n- Core messaging themes\n- Launch timeline phases\n- Key marketing/sales channels\n\nReturn format: Structured bullet points with short explanations.\n\nImportant: Do not include generic strategies. Focus on details relevant to the inputs.\n\nContext: If available, review [LINK TO PRODUCT OVERVIEW OR GTM BRIEF].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Brainstorm Collaboration or Partnership Ideas": {
+      "summary": "You want to generate ideas for collaboration or partnership opportunities that align with your company goals and audience.",
+      "prompt": "You are a business development assistant. Brainstorm 5 potential collaboration or partnership ideas for [COMPANY NAME].\n\nThe company focuses on [BRIEF DESCRIPTION OF MISSION/PRODUCTS]. Its target audience includes [TARGET CUSTOMER BASE]. Partnership goals include [GOALS: visibility, co-branding, integration, etc.]\n\nReturn format: Numbered list with each idea explained in 1\u20132 sentences.\n\nImportant: Avoid generic suggestions. Ideas must reflect the company\u2019s niche and purpose.\n\nContext: Link to company website or description if available: [LINK TO WEBSITE OR MATERIALS].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Workshop Agenda for Strategic Planning": {
+      "summary": "You want to plan a half- or full-day strategic workshop. The agenda should include time blocks, themes, and facilitation formats.",
+      "prompt": "You are a strategic facilitator. Your task is to design a workshop agenda for [DURATION: half-day or full-day] focused on [STRATEGIC THEME, E.G., vision alignment, market planning, etc.].\n\nInclude:\n- Opening alignment activity\n- Core session blocks (with format: discussion, breakout, etc.)\n- Recap + decision-making block\n- Optional energizer or closing ritual\n\nReturn format: A time-blocked agenda with titles, format types, and goals per session.\n\nImportant: Ensure good flow and diversity of engagement formats.\n\nContext: For context, refer to [LINK TO STRATEGIC BRIEF OR TEAM GOALS].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    },
+    "Idea Variants for a Campaign or Initiative": {
+      "summary": "You want to explore different creative directions for a campaign, event, or internal initiative to select the best fit.",
+      "prompt": "You are a creative strategy advisor. Your goal is to provide 3\u20135 concept variants for a campaign called [CAMPAIGN NAME] aimed at [AUDIENCE SEGMENT].\n\nThe campaign goal is [GOAL: awareness, sign-ups, internal culture, etc.], and it aligns with [BRAND OR ORGANIZATIONAL VALUES].\n\nEach idea should include a theme/title, a one-liner pitch, and 1\u20132 sentences of execution detail.\n\nImportant: Avoid clich\u00e9s or off-brand tones. Concepts should vary in mood, channel, or structure.\n\nContext: Use the campaign brief or values doc if available: [LINK TO CAMPAIGN PLAN OR BRAND GUIDE].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format."
+    }
+  }
 }
