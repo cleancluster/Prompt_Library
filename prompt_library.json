@@ -1,0 +1,31 @@
+{
+  "Email & Communication": {
+    "Internal Communication": [
+      {
+        "problem": "Write a team update email after a project milestone",
+        "prompt": "Write an internal email summarizing the recent milestone for [Project Name], including key accomplishments, next steps, and appreciation for the team."
+      },
+      {
+        "problem": "Announce a new hire to the team",
+        "prompt": "Compose a friendly email to introduce [New Hire Name], their role as [Job Title], and a short background."
+      }
+    ],
+    "Cold Outreach": [
+      {
+        "problem": "Reach out to a potential partner company",
+        "prompt": "Generate a cold outreach email introducing [Your Company], highlighting shared goals with [Partner Company], and suggesting a meeting."
+      }
+    ]
+  },
+  "Marketing & Ads": {
+    "Social Media Posts": [
+      {
+        "problem": "Create a product launch tweet",
+        "prompt": "Write a short, engaging tweet announcing the launch of [Product Name], with a call to action."
+      }
+    ]
+  },
+  "Productivity & Ops": {},
+  "Customer Support": {},
+  "Strategy & Planning": {}
+}
