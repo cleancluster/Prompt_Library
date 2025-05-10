@@ -71,8 +71,3 @@ if "example_link" in entry:
     st.markdown(f"[🔗 {t('View ChatGPT Example Thread', 'Se eksempeltråd i ChatGPT')}]({entry['example_link']})", unsafe_allow_html=True)
 else:
     st.markdown(f"<span style='color: #888;'>{t('No example thread available yet.', 'Ingen eksempeltråd tilgængelig endnu.')}</span>", unsafe_allow_html=True)
-
-# --- FOOTER ---
-st.markdown("---")
-st.info(t("Click the button above or highlight the text manually to copy the prompt.",
-          "Klik på knappen ovenfor, eller markér teksten manuelt for at kopiere prompten."))
