@@ -4,7 +4,7 @@ import html
 import streamlit.components.v1 as components
 
 # Load bilingual prompt data
-with open("prompt_library_bilingual.json", "r") as f:
+with open("prompt_library.json", "r") as f:
     prompt_data = json.load(f)
 
 st.set_page_config(layout="wide")
