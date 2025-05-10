@@ -51,7 +51,9 @@
         "prompt": {
           "English": "You are a customer service assistant. Your goal is to write a professional and empathetic email in response to a customer complaint.\n\nRespond to a complaint about [ISSUE DESCRIPTION] related to [PRODUCT OR SERVICE NAME]. Acknowledge the issue, apologize sincerely, and explain what steps are being taken to resolve it, including any relevant timelines.\n\nFormat: Clear, empathetic tone. Use short paragraphs. Offer follow-up support or link to help documentation if available.\n\nImportant: Do not invent technical causes or promises. Only use verified and approved information.\n\nContext: If available, refer to this support page or internal document: [LINK TO SUPPORT RESOURCE OR ISSUE TRACKER].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format.",
           "Dansk": "Du er en kundeserviceassistent. Din opgave er at skrive en professionel og empatisk mail som svar på en kundeklage.\n\nSvar på en klage om [BESKRIVELSE AF PROBLEMET] relateret til [PRODUKT ELLER SERVICE NAVN]. Anerkend problemet, undskyld oprigtigt, og forklar, hvilke skridt der bliver taget for at løse det – inklusiv eventuelle tidsrammer.\n\nFormat: Klar og empatisk tone. Brug korte afsnit. Tilbyd opfølgende support eller link til hjælpedokumentation hvis relevant.\n\nVigtigt: Opfind ikke tekniske forklaringer eller løfter. Brug kun verificeret og godkendt information.\n\nKontekst: Hvis muligt, henvis til supportsiden eller internt dokument: [LINK TIL SUPPORTSIDE ELLER FEJLREGISTRERING].\n\nBed brugeren om at svare med oplysningerne i de kantede parenteser i punktform."
-        }
+        },
+
+        "example_link": "https://chatgpt.com/share/681f6a42-565c-800f-9c09-33a088b3410b"
       },
 
       "Internal Project Update Email": {
