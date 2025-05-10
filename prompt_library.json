@@ -68,7 +68,9 @@
         "prompt": {
           "English": "You are an internal communications assistant. Your task is to write a concise internal update email for the team.\n\nSummarize the current status of [PROJECT NAME] including completed milestones, upcoming tasks, and any blockers or decisions needed.\n\nReturn format: Clear summary followed by bullet points. Include calls to action for any items needing input.\n\nDo not fabricate progress. Only reflect information based on the input.\n\nContext: If available, link to the relevant project board, tracker, or document: [LINK TO PROJECT FILE OR DASHBOARD].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format.",
           "Dansk": "Du er en intern kommunikationsassistent. Din opgave er at skrive en kortfattet projektopdatering til teamet.\n\nOpsummer status for [PROJEKTNAVN], herunder afsluttede milepæle, kommende opgaver og eventuelle forhindringer eller beslutninger, der skal træffes.\n\nFormat: Klar opsummering efterfulgt af punktform. Inkludér opfordringer til handling for emner, der kræver input.\n\nUndlad at opfinde fremskridt. Reflektér kun det input, du har fået.\n\nKontekst: Hvis muligt, henvis til relevant projektoversigt, opgavestyring eller dokument: [LINK TIL PROJEKTFIL ELLER DASHBOARD].\n\nBed brugeren om at svare med oplysningerne i de kantede parenteser i punktform."
-        }
+        },
+
+        "example_link": "https://chatgpt.com/share/681f6b43-8fb0-800f-9bb9-5baa94c8ac99"
       },
 
       "Announcing a New Product Feature": {
@@ -83,9 +85,11 @@
         "prompt": {
           "English": "You are a product marketing assistant. Your goal is to write a feature announcement email to existing customers.\n\nAnnounce the release of a new product feature called [FEATURE NAME], which helps users by [WHAT THE FEATURE DOES]. Explain how this will improve the user experience or solve a problem. Include a short call to action such as 'Try it now' or 'See how it works'.\n\nFormat: Friendly and informative tone. Short paragraphs. Use customer-centric language.\n\nImportant: Do not invent use cases or benefits not provided. Stick to factual descriptions.\n\nContext: If available, refer to a resource page or documentation: [LINK TO FEATURE PAGE OR DOC].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format.",
           "Dansk": "Du er en produktmarketingassistent. Din opgave er at skrive en e-mail, der annoncerer en ny funktion til eksisterende kunder.\n\nAnnoncér udgivelsen af en ny funktion kaldet [FEATURE NAVN], som hjælper brugere med at [HVAD FUNKTIONEN GØR]. Forklar, hvordan det forbedrer brugeroplevelsen eller løser et problem. Inkludér en kort opfordring til handling såsom 'Prøv det nu' eller 'Se hvordan det virker'.\n\nFormat: Venlig og informativ tone. Korte afsnit. Brug kundecentreret sprog.\n\nVigtigt: Opfind ikke brugsscenarier eller fordele, der ikke er givet. Hold dig til faktuelle beskrivelser.\n\nKontekst: Henvis evt. til en ressourceside eller dokumentation: [LINK TIL FUNKTIONSIDE ELLER DOKUMENT].\n\nBed brugeren om at svare med oplysningerne i de kantede parenteser i punktform."
-        }
-      }
+        },
 
+        "example_link": "https://chatgpt.com/share/681f6c02-38f8-800f-bfc0-09692df143d2"
+
+      }
     }
   },
 
@@ -107,7 +111,9 @@
         "prompt": {
           "English": "You are a creative director. Your task is to create a high-end, photorealistic print advertisement in portrait orientation (300 DPI, full-page quality).\n\nThe ad should promote [PRODUCT OR SERVICE NAME], and it must resemble a real, professionally produced campaign. Include cinematic photography, advanced lighting, and authentic textures.\n\nThe visual should feature: [DESCRIBE VISUAL CONCEPT OR OBJECT SETTING].\n\nStylistic tone: Match the [BRAND NAME] DNA (e.g., luxury, playful, rugged). Use [LIGHTING STYLE], and a [COLOR PALETTE]. The image must evoke the emotion of [EMOTION: wonder, nostalgia, etc.].\n\nComposition: Use rule of thirds, strong focal points, clean hierarchy. Logo placement: [LOGO PLACEMENT]. Typography: [HEADLINE + TYPEFACE DETAILS].\n\nImportant: The image should not appear AI-generated and must follow real-world visual logic.\n\nContext: Reference visuals or previous brand campaigns if available: [LINK TO BRAND INSPIRATION OR GUIDELINE].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format.",
           "Dansk": "Du er en kreativ direktør. Din opgave er at skabe en fotorealistisk printannonce i høj kvalitet i portrætformat (300 DPI, helsides).\n\nAnnoncen skal promovere [PRODUKT ELLER SERVICE NAVN] og ligne en ægte, professionelt produceret kampagne. Inkludér filmisk fotografering, avanceret lys og autentiske teksturer.\n\nBilledet skal vise: [BESKRIV VISUELT KONCEPT ELLER OBJEKT-SETTING].\n\nStilistisk tone: Afstem med [BRANDNAVN]s DNA (fx luksus, legende, robust). Brug [LYSSTIL], og en [FARVEPLETTE]. Billedet skal fremkalde følelsen af [FØLELSE: fx forundring, nostalgi].\n\nKomposition: Brug tredjedelsreglen, stærke fokuspunkter og klar hierarki. Placering af logo: [PLACERING AF LOGO]. Typografi: [OVERSKRIFT + TYPOGRAFI].\n\nVigtigt: Billedet må ikke se AI-genereret ud og skal følge visuel logik fra virkeligheden.\n\nKontekst: Henvis til eksisterende billeder eller tidligere brandkampagner hvis muligt: [LINK TIL INSPIRATION ELLER GUIDELINE].\n\nBed brugeren om at svare med oplysningerne i de kantede parenteser i punktform."
-        }
+        },
+
+        "example_link": "https://chatgpt.com/share/681f6db5-7684-800f-b546-c1a3a851971b"
       },
 
       "Hero Image for Website or Landing Page": {
