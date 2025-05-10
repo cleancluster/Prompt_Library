@@ -128,7 +128,9 @@
         "prompt": {
           "English": "You are a digital brand designer. Your goal is to generate a hero image concept for the landing page of [PRODUCT/SERVICE NAME].\n\nThe image should depict [KEY CONCEPT OR SYMBOLIC REPRESENTATION], using a [STYLE: minimal, illustrative, cinematic] aesthetic. Include visual elements that reflect [BRAND VALUES OR THEMES].\n\nEnsure the layout supports header text visibility (e.g., light background, center focus) and feels modern and visually inviting.\n\nDo not include any branding unless specified. Focus on emotional resonance and clarity.\n\nContext: Link to landing page copy or references: [LINK TO PAGE OR BRIEFING].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format.",
           "Dansk": "Du er digital branddesigner. Din opgave er at udarbejde et hero-billede til landingssiden for [PRODUKT/SERVICE NAVN].\n\nBilledet skal vise [CENTRALT KONCEPT ELLER SYMBOLSKT ELEMENT] i en [STIL: minimalistisk, illustrativ, filmisk] æstetik. Inkludér visuelle elementer, der afspejler [BRANDVÆRDIER ELLER TEMAER].\n\nLayoutet skal understøtte læsbarhed af overskrift (fx lys baggrund, centreret fokus) og føles moderne og visuelt imødekommende.\n\nMedtag ikke branding, medmindre det er angivet. Fokuser på følelsesmæssig gennemslagskraft og klarhed.\n\nKontekst: Link til landing page tekst eller brief: [LINK TIL SIDE ELLER BRIEF].\n\nBed brugeren om at svare med oplysningerne i de kantede parenteser i punktform."
-        }
+        },
+
+        "example_link": "https://chatgpt.com/share/681f6f26-ed8c-800f-8946-b60a5ae2dca2"
       },
         "Conceptual Visual Metaphor for a Presentation": {
           "meta": {
