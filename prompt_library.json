@@ -144,7 +144,9 @@
           "prompt": {
             "English": "You are a visual storyteller. Your goal is to describe a symbolic, metaphorical image representing the concept of [ABSTRACT CONCEPT, E.G. TRUST, GROWTH, COMPLEXITY].\n\nUse a [STYLE: surreal, minimalistic, illustrative] tone. Choose objects, environments, or scenarios that subtly reinforce the concept.\n\nThe image must be simple, emotionally resonant, and understandable at a glance.\n\nDo not include literal icons unless requested. Avoid clichés.\n\nContext: Link to the presentation or slide content where this visual will appear: [LINK TO SLIDE DECK OR BRIEF].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format.",
             "Dansk": "Du er en visuel fortæller. Din opgave er at beskrive et symbolsk, metaforisk billede, der repræsenterer konceptet [ABSTRAKT KONCEPT, F.EKS. TILLID, VÆKST, KOMPLEKSITET].\n\nBrug en [STIL: surrealistisk, minimalistisk, illustrativ] tone. Vælg objekter, miljøer eller scenarier, der diskret forstærker konceptet.\n\nBilledet skal være enkelt, følelsesmæssigt stærkt og let at forstå ved første øjekast.\n\nUndgå bogstavelige ikoner medmindre specifikt ønsket. Undgå klichéer.\n\nKontekst: Link til præsentation eller slide-indhold hvor billedet skal bruges: [LINK TIL SLIDES ELLER BRIEF].\n\nBed brugeren om at svare med oplysningerne i de kantede parenteser i punktform."
-          }
+          },
+
+          "example_link": "https://chatgpt.com/share/6821053d-8970-800f-8497-f512eb7bb9f6"
         },
       
         "Simple Icon or Figicon Description": {
@@ -159,7 +161,9 @@
           "prompt": {
             "English": "You are a UI icon designer. Your task is to describe a simple, flat-style icon representing [CONCEPT OR FUNCTION].\n\nThe icon should reflect [EMOTION OR FUNCTIONAL CHARACTERISTIC] and be suitable for use in an app or dashboard. Describe key shapes, style (outline/solid), and whether it should have motion or state change if interactive.\n\nAvoid complexity. Focus on recognizability and style coherence.\n\nContext: Link to app mockup or style guide: [LINK TO UI FILE OR DESIGN SYSTEM].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format.",
             "Dansk": "Du er UI-ikondesigner. Din opgave er at beskrive et simpelt ikon i flat-style, som repræsenterer [KONCEPT ELLER FUNKTION].\n\nIkonet skal afspejle [FØLELSE ELLER FUNKTIONEL EGENSKAB] og være egnet til brug i en app eller dashboard. Beskriv form, stil (outline/solid), og om det skal have bevægelse eller tilstandsskift hvis interaktivt.\n\nUndgå kompleksitet. Fokuser på genkendelighed og stilistisk sammenhæng.\n\nKontekst: Link til appmockup eller style guide: [LINK TIL UI-FIL ELLER DESIGN SYSTEM].\n\nBed brugeren om at svare med oplysningerne i de kantede parenteser i punktform."
-          }
+          },
+
+          "example_link": "https://chatgpt.com/share/68210653-8a3c-800f-9380-759695b048b6"
         },
       
         "Storyboard for a Short Explainer Video": {
@@ -174,7 +178,9 @@
           "prompt": {
             "English": "You are a video producer. Your goal is to generate a storyboard outline for a 30–60 second explainer video about [PRODUCT/SERVICE NAME].\n\nTarget audience: [AUDIENCE TYPE]. Key message: [VALUE PROPOSITION OR PROBLEM IT SOLVES].\n\nBreak the storyboard into 4–6 scenes. For each, describe the visual, motion, and message.\n\nStyle: [ANIMATION STYLE OR VIDEO AESTHETIC]. Tone: [TONE: upbeat, serious, friendly].\n\nImportant: Each scene should flow logically into the next. Avoid unnecessary detail; focus on clarity.\n\nContext: Refer to existing script or references: [LINK TO SCRIPT OR VIDEO BRIEF].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format.",
             "Dansk": "Du er videoproducent. Din opgave er at skabe en storyboardskitse til en 30–60 sekunders forklaringsvideo om [PRODUKT/SERVICE NAVN].\n\nMålgruppe: [MÅLGRUPPE]. Nøglebudskab: [VÆRDIFORSLAG ELLER PROBLEM DET LØSER].\n\nOpdel storyboardet i 4–6 scener. Beskriv for hver scene det visuelle, bevægelse og budskab.\n\nStil: [ANIMATIONSSTIL ELLER VIDEOÆSTETIK]. Tone: [TONE: energisk, seriøs, venlig].\n\nVigtigt: Scenerne skal hænge logisk sammen. Undgå unødige detaljer – fokusér på klarhed.\n\nKontekst: Henvis til eksisterende manus eller materiale: [LINK TIL MANUS ELLER VIDEO BRIEF].\n\nBed brugeren om at svare med oplysningerne i de kantede parenteser i punktform."
-          }
+          },
+
+          "example_link": "https://chatgpt.com/share/682108ba-7928-800f-909d-c2bfa8472421"
         }
       }
         
