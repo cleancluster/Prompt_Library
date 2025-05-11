@@ -204,7 +204,9 @@
         "prompt": {
           "English": "You are a content marketing assistant. Your goal is to write a LinkedIn post announcing a new product or feature.\n\nCreate a post to introduce [PRODUCT OR FEATURE NAME], designed for [TARGET AUDIENCE] and aimed at [MAIN VALUE OR PAIN POINT IT SOLVES]. Mention the core benefit in one sentence and close with a call to action like 'Learn more', 'See how it works', or 'Try it today'.\n\nReturn format: Write in a tone that is [TONE: professional, enthusiastic, visionary], using clear and engaging language. Keep the post under 300 words.\n\nImportant: Do not fabricate claims or statistics. Stay grounded in the provided facts.\n\nContext: Refer to [LINK TO PRODUCT PAGE OR COMPANY SITE] for accuracy and inspiration.\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format.",
           "Dansk": "Du er content marketing-assistent. Din opgave er at skrive et LinkedIn-opslag, der annoncerer et nyt produkt eller en ny funktion.\n\nOpslaget skal introducere [PRODUKT ELLER FUNKTION], målrettet [MÅLGRUPPE] og med fokus på [VÆRDI ELLER PROBLEM DET LØSER]. Nævn hovedfordelen i én sætning og afslut med en call to action som 'Læs mere', 'Se hvordan det virker' eller 'Prøv det i dag'.\n\nFormat: Skriv i en tone der er [TONE: professionel, entusiastisk, visionær] og brug klart og engagerende sprog. Hold det under 300 ord.\n\nVigtigt: Find ikke på påstande eller tal. Hold dig til fakta.\n\nKontekst: Henvis til [LINK TIL PRODUKTSIDE ELLER FIRMAETS HJEMMESIDE] for nøjagtighed og inspiration.\n\nBed brugeren om at svare med oplysningerne i de kantede parenteser i punktform."
-        }
+        },
+
+        "example_link": "https://chatgpt.com/share/68210a1f-c164-800f-b9f7-667782b7a131"
       },
 
       "Writing a Tagline or Slogan": {
@@ -219,7 +221,9 @@
         "prompt": {
           "English": "You are a branding assistant. Your task is to write 3 strong tagline options for [PRODUCT/SERVICE NAME].\n\nThe product/service is for [TARGET AUDIENCE] and solves [CORE PROBLEM OR NEED] by [KEY BENEFIT OR FEATURE]. Each tagline should be under 10 words, clear, and reflect a [TONE: bold, innovative, friendly, etc.] tone.\n\nReturn format: Present three distinct tagline options as a bullet list.\n\nDo not invent features. Stay true to the brand’s purpose.\n\nContext: Refer to the website or brand guide if available: [LINK TO BRAND OR PRODUCT PAGE].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format.",
           "Dansk": "Du er branding-assistent. Din opgave er at skrive 3 stærke tagline-forslag til [PRODUKT/SERVICE NAVN].\n\nProduktet/servicen henvender sig til [MÅLGRUPPE] og løser [KERNEPROBLEM ELLER BEHOV] ved hjælp af [NØGLEFORDEL ELLER EGENSKAB]. Hver tagline skal være under 10 ord, tydelig og afspejle en [TONE: dristig, innovativ, venlig osv.] tone.\n\nFormat: Præsenter tre forskellige tagline-forslag som punktliste.\n\nFind ikke på funktioner – vær tro mod brandets formål.\n\nKontekst: Henvis til brandets hjemmeside eller brand guide hvis muligt: [LINK TIL BRAND ELLER PRODUKTSIDE].\n\nBed brugeren om at svare med oplysningerne i de kantede parenteser i punktform."
-        }
+        },
+
+        "example_link": "https://chatgpt.com/share/68210bf1-feb8-800f-9a0e-8a3c7c1c31b3"
       },
 
       "Social Media Post from a Blog Article": {
@@ -234,7 +238,9 @@
         "prompt": {
           "English": "You are a social content writer. Your goal is to write a social media post that summarizes a blog article and encourages people to read more.\n\nUse the key insights from [BLOG ARTICLE TITLE] found at [LINK TO ARTICLE] to create a short, attention-grabbing post for [PLATFORM: LinkedIn, Twitter, Facebook]. The post should summarize the core point in 1–2 sentences and include a question, quote, or call to action to drive clicks.\n\nReturn format: Clear tone suited for the platform. Limit to [WORD COUNT LIMIT] words.\n\nImportant: Do not paraphrase beyond the article’s message. Avoid clickbait or speculation.\n\nContext: Review the article at the provided link.\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format.",
           "Dansk": "Du er en SoMe-indholdsforfatter. Din opgave er at skrive et social media-opslag, der opsummerer et blogindlæg og motiverer læsere til at klikke videre.\n\nBrug de vigtigste pointer fra [BLOGTITEL] som findes på [LINK TIL ARTIKEL], og lav et kort, opmærksomhedsskabende opslag til [PLATFORM: LinkedIn, Twitter, Facebook]. Opslaget skal opsummere hovedbudskabet i 1–2 sætninger og inkludere et spørgsmål, citat eller call to action.\n\nFormat: Klar tone der passer til platformen. Begræns til [ORDGRÆNSE] ord.\n\nVigtigt: Gengiv kun bloggens faktiske budskab – undgå clickbait og spekulation.\n\nKontekst: Læs artiklen på det angivne link.\n\nBed brugeren om at svare med oplysningerne i de kantede parenteser i punktform."
-        }
+        },
+
+        "example_link": "https://chatgpt.com/share/68210d3e-4df4-800f-924e-0a29b784dcb6"
       },
 
       "Marketing Email for a New Campaign": {
@@ -249,7 +255,9 @@
         "prompt": {
           "English": "You are a campaign copywriter. Write a short marketing email announcing [CAMPAIGN OR PRODUCT NAME] targeted to [AUDIENCE TYPE]. The main benefit of this offer/product is [KEY BENEFIT]. Include a clear call to action like 'Shop now', 'See it live', or 'Join the campaign'.\n\nReturn format: Friendly, persuasive tone. Keep it under 150 words. Start with a hook and finish with the CTA.\n\nImportant: Do not exaggerate or use misleading language. Base the message on the benefit provided.\n\nContext: Refer to campaign or landing page if applicable: [LINK TO CAMPAIGN OR PRODUCT PAGE].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format.",
           "Dansk": "Du er kampagnetekstforfatter. Skriv en kort marketing-e-mail, der annoncerer [KAMPAGNE ELLER PRODUKTNAVN] målrettet [MÅLGRUPPE]. Den vigtigste fordel ved dette tilbud/produkt er [HOVEDFORDEL]. Inkludér en klar opfordring til handling som 'Shop nu', 'Se det live' eller 'Deltag i kampagnen'.\n\nFormat: Venlig, overbevisende tone. Hold dig under 150 ord. Start med en fængende sætning og afslut med CTA.\n\nVigtigt: Overdriv ikke og brug ikke vildledende sprog. Baser budskabet på den faktiske fordel.\n\nKontekst: Henvis til kampagneside eller landing page hvis relevant: [LINK TIL KAMPAGNE ELLER PRODUKTSIDE].\n\nBed brugeren om at svare med oplysningerne i de kantede parenteser i punktform."
-        }
+        },
+
+        "example_link": "https://chatgpt.com/share/68210ea7-caf8-800f-a5bf-c5b5bb73f9a9"
       },
     
       "Crafting a One-Sentence Product Pitch": {
@@ -264,7 +272,9 @@
         "prompt": {
           "English": "You are a startup communications expert. Write a one-sentence product pitch for [PRODUCT NAME], designed for [TARGET AUDIENCE], which helps them [MAIN PROBLEM IT SOLVES OR VALUE IT DELIVERS].\n\nReturn format: One complete sentence, clear and jargon-free, between 15–25 words.\n\nImportant: Avoid vague claims. Focus on clarity and relevance.\n\nContext: Use details from the company page or document if available: [LINK TO PRODUCT OR OVERVIEW PAGE].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format.",
           "Dansk": "Du er kommunikationsekspert for startups. Skriv en én-sætnings produktpitch for [PRODUKTNAVN], målrettet [MÅLGRUPPE], som hjælper dem med at [HOVEDPROBLEM DET LØSER ELLER VÆRDI DET SKABER].\n\nFormat: Én fuld sætning, klar og fri for jargon, mellem 15–25 ord.\n\nVigtigt: Undgå vage påstande. Fokuser på tydelighed og relevans.\n\nKontekst: Brug information fra virksomhedens side eller dokument, hvis tilgængelig: [LINK TIL PRODUKT ELLER OVERBLIKSSIDE].\n\nBed brugeren om at svare med oplysningerne i de kantede parenteser i punktform."
-        }
+        },
+
+        "example_link": "https://chatgpt.com/share/68211021-354c-800f-ad13-b800fc28185b"
       }
     }
       
@@ -399,7 +409,9 @@
         "prompt": {
           "English": "You are a business development assistant. Brainstorm 5 potential collaboration or partnership ideas for [COMPANY NAME].\n\nThe company focuses on [BRIEF DESCRIPTION OF MISSION/PRODUCTS]. Its target audience includes [TARGET CUSTOMER BASE]. Partnership goals include [GOALS: visibility, co-branding, integration, etc.]\n\nReturn format: Numbered list with each idea explained in 1–2 sentences.\n\nImportant: Avoid generic suggestions. Ideas must reflect the company’s niche and purpose.\n\nContext: Link to company website or description if available: [LINK TO WEBSITE OR MATERIALS].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format.",
           "Dansk": "Du er forretningsudviklingsassistent. Brainstorm 5 mulige samarbejds- eller partnerskabsidéer for [FIRMANAVN].\n\nVirksomheden fokuserer på [KORT BESKRIVELSE AF MISSION/PRODUKTER]. Dens målgruppe inkluderer [MÅLGRUPPE]. Målet med partnerskaberne inkluderer [MÅL: synlighed, co-branding, integration, osv.]\n\nFormat: Nummereret liste med 1–2 sætninger pr. idé.\n\nVigtigt: Undgå generiske forslag. Idéerne skal matche virksomhedens niche og formål.\n\nKontekst: Link til virksomhedens hjemmeside eller beskrivelse hvis muligt: [LINK TIL HJEMMESIDE ELLER MATERIALE].\n\nBed brugeren om at svare med oplysningerne i de kantede parenteser i punktform."
-        }
+        },
+
+        "example_link": "https://chatgpt.com/share/6821123c-59ec-800f-9370-a049a18d27be"
       },
 
       "Workshop Agenda for Strategic Planning": {
