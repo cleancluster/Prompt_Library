@@ -443,7 +443,7 @@
           "Dansk": "Du er forretningsudviklingsassistent. Brainstorm 5 mulige samarbejds- eller partnerskabsidéer for [FIRMANAVN].\n\nVirksomheden fokuserer på [KORT BESKRIVELSE AF MISSION/PRODUKTER]. Dens målgruppe inkluderer [MÅLGRUPPE]. Målet med partnerskaberne inkluderer [MÅL: synlighed, co-branding, integration, osv.]\n\nFormat: Nummereret liste med 1–2 sætninger pr. idé.\n\nVigtigt: Undgå generiske forslag. Idéerne skal matche virksomhedens niche og formål.\n\nKontekst: Link til virksomhedens hjemmeside eller beskrivelse hvis muligt: [LINK TIL HJEMMESIDE ELLER MATERIALE].\n\nBed brugeren om at svare med oplysningerne i de kantede parenteser i punktform."
         },
 
-        "example_link": "https://chatgpt.com/share/6821123c-59ec-800f-9370-a049a18d27be"
+        "example_link": "https://chatgpt.com/share/e/68ff8f4b-cc74-8011-adb1-3d8204fb1591"
       },
 
       "Workshop Agenda for Strategic Planning": {
