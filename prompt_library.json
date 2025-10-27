@@ -238,7 +238,7 @@
           "Dansk": "Du er content marketing-assistent. Din opgave er at skrive et LinkedIn-opslag, der annoncerer et nyt produkt eller en ny funktion.\n\nOpslaget skal introducere [PRODUKT ELLER FUNKTION], målrettet [MÅLGRUPPE] og med fokus på [VÆRDI ELLER PROBLEM DET LØSER]. Nævn hovedfordelen i én sætning og afslut med en call to action som 'Læs mere', 'Se hvordan det virker' eller 'Prøv det i dag'.\n\nFormat: Skriv i en tone der er [TONE: professionel, entusiastisk, visionær] og brug klart og engagerende sprog. Hold det under 300 ord.\n\nVigtigt: Find ikke på påstande eller tal. Hold dig til fakta.\n\nKontekst: Henvis til [LINK TIL PRODUKTSIDE ELLER FIRMAETS HJEMMESIDE] for nøjagtighed og inspiration.\n\nBed brugeren om at svare med oplysningerne i de kantede parenteser i punktform."
         },
 
-        "example_link": "https://chatgpt.com/share/68210a1f-c164-800f-b9f7-667782b7a131"
+        "example_link": "https://chatgpt.com/share/e/68ff9234-d138-8011-b827-c8e9fee69346"
       },
 
       "Writing a Tagline or Slogan": {
