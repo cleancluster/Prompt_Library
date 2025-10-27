@@ -19,7 +19,7 @@
           "Dansk": "Du er en B2B-kommunikationsassistent. Din opgave er at skrive en overbevisende introduktionsmail til en potentiel kunde.\n\nSkriv en mail, der introducerer [FIRMANAVN] og dets produkt eller service, [PRODUKT/SERVICE NAVN], til en ny kontakt i [BRANCHE] sektoren. Produktet/servicen hjælper kunder ved at [HVAD PRODUKTET/SERVICEN GØR I ÉN SÆTNING].\n\nMailen skal være kort og letlæselig (maks 150 ord). Afslut med en venlig og lavpraktisk opfordring til handling, som f.eks. 'Vil du være åben for et kort introduktionsopkald?' eller 'Jeg sender gerne mere info, hvis du er interesseret.'\n\nUndgå at opfinde detaljer om produktet/servicen. Brug kun de oplysninger, der gives.\n\nYderligere kontekst: Henvis til websiden [LINK TIL FIRMA ELLER PRODUKTSIDE] eller uploadet materiale for præcis kommunikation.\n\nBed brugeren om at svare med oplysningerne i de kantede parenteser i punktform."
         },
         
-        "example_link": "https://chatgpt.com/share/681f6536-7470-800f-867a-9c7aabc13fd6"
+        "example_link": "https://chatgpt.com/share/e/68ff8cf4-222c-8011-b832-19834e07d880"
       },
 
       "Follow-Up Email After Client Meeting": {
