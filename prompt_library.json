@@ -388,7 +388,8 @@
           "prompt": {
             "English": "You are a research summarizer. Your task is to extract key insights from [LINK TO DOCUMENT OR UPLOADED REPORT].\n\nSummarize:\n- The main topic and its importance\n- 3–5 key findings or statistics\n- 1 paragraph on the implications for your company\n\nReturn format: Short structured summary (headings or bullet points optional).\n\nImportant: Stick to content found in the source. No extrapolation.\n\nContext: This report was created by [SOURCE OR PUBLISHER] and focuses on [INDUSTRY OR THEME].\n\nAsk the user to answer with the information in the brackets in an enumerated bullet point format.",
             "Dansk": "Du er forskningsopsummerer. Din opgave er at trække nøgleindsigter ud fra [LINK TIL DOKUMENT ELLER UPLOADET RAPPORT].\n\nOpsummer:\n- Hovedemnet og hvorfor det er vigtigt\n- 3–5 hovedfund eller statistikker\n- 1 afsnit om konsekvenserne for din virksomhed\n\nFormat: Kort struktureret opsummering (eventuelt med overskrifter eller punktform).\n\nVigtigt: Hold dig til indholdet i kilden. Ingen spekulation.\n\nKontekst: Rapporten er udarbejdet af [KILDE ELLER UDGIVER] og handler om [BRANCHE ELLER TEMA].\n\nBed brugeren om at svare med oplysningerne i de kantede parenteser i punktform."
-          }
+          },
+          "example_link": "https://chatgpt.com/share/e/69089b7d-58b8-8011-8aa8-ee030878ef0d"
         }
       }
     
